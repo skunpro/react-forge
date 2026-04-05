@@ -67,3 +67,17 @@ cargo fmt --check
 cargo check
 cargo clippy -- -D warnings
 ```
+
+## Contributing
+
+Contributions are welcome. Please open an issue describing the problem or feature, then submit a pull request.
+
+## Contributors
+
+| Contributor | Contact |
+| --- | --- |
+| <img src="https://github.com/skunpro.png?size=64" width="64" height="64" alt="skun" /> skun | <hello@skun.pro> |
+
+## License
+
+MIT
