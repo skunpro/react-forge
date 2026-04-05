@@ -1,0 +1,10 @@
+id = "react-forge"
+name = "React Forge"
+description = "Ecosystem-aware scaffolding for React component extraction."
+version = "0.0.1"
+schema_version = 1
+authors = ["skun <hello@skun.pro>"]
+repository = "https://github.com/skunpro/react-forge"
+
+[context_servers.react-forge]
+name = "React Forge"
