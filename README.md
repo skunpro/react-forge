@@ -76,7 +76,7 @@ Contributions are welcome. Please open an issue describing the problem or featur
 
 | Contributor | Contact |
 | --- | --- |
-| <img src="https://github.com/skunpro.png?size=64" width="64" height="64" alt="skun" /> skun | <hello@skun.pro> |
+| <img src="https://github.com/skunpro.png?size=64" width="64" height="64" style="border-radius: 9999px;" alt="skun" /> | skun (<hello@skun.pro>) |
 
 ## License
 
