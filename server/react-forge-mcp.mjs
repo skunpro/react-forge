@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const serverInfo = { name: "react-forge", version: "0.0.1" };
+const serverInfo = { name: "react-forge", version: "0.0.2" };
 
 const baseIgnoredDirNames = new Set([
   ".git",
