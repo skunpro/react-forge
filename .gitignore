@@ -8,6 +8,8 @@ pnpm-debug.log*
 Thumbs.db
 *.swp
 *~
+.env
+.env.*
 **/*.rs.bk
 *.pdb
 extension.wasm
