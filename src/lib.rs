@@ -40,8 +40,15 @@ impl zed::Extension for ReactForge {
         }
 
         let node = zed::node_binary_path()?;
-        let extension_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
+        let extension_dir = std::env::current_dir().map_err(|err| err.to_string())?;
         let server_path: PathBuf = extension_dir.join("server").join("react-forge-mcp.mjs");
+
+        if !server_path.exists() {
+            return Err(format!(
+                "Missing context server script at: {}",
+                server_path.display()
+            ));
+        }
 
         Ok(Command {
             command: node,
